@@ -4,15 +4,16 @@ on:
   - push
 
 jobs: 
-    first_job: 
+    first_job:
+        name: jomacs_k8s 
         runs-on: ubuntu-latest
         steps:
             - name: Welcome Message
-              run: echo "My first GitHub Actions Job"
+              run: echo "Welcome to the World of CICD through GitHub Actions"
 
-            - name: List Files 
-              run: ls 
+            - name: List All Files including hidden 
+              run: ls -1a
 
-            - name: Read file 
-              run: cat dockerfile
+            - name: Show Present Working Directory 
+              run: pwd
 
