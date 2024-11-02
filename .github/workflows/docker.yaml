@@ -1,31 +1,34 @@
-name: Docker Workflow
+name: Docker Workflow_environmental variables
 
 on:
   - push
-  
+
+env:
+    CONTAINER_REGISTRY: docker.io
+    IMAGE_NAME: resume-app
+
 jobs: 
   docker_build: 
     runs-on: ubuntu-latest
-    steps: 
+    steps:
     - name: Checkout Code
       uses: actions/checkout@v4
 
-    - name: Docker Build 
-      run: docker build -t docker.io/utalfaruq/resume-app:latest .
+    - name: Docker Build
+      run: docker build -t ${{ env.CONTAINER_REGISTRY }}/${{ vars.DOCKER_USERNAME }}/${{ env.IMAGE_NAME }}:latest .
 
     - name: Docker Login
-      run: docker login --username=umartakyi.ut@gmail.com  --password=alfaruq2007
+      run: docker login --username=${{ vars.DOCKER_USERNAME }} --password=${{ secrets.DOCKER_PASSWORD }}
 
     - name: Docker Publish 
-      run: docker push docker.io/utalfaruq/resume-app:latest
+      run: docker push ${{ env.CONTAINER_REGISTRY }}/${{ vars.DOCKER_USERNAME }}/${{ env.IMAGE_NAME }}:latest
 
   docker_deploy:
     needs: docker_build
     runs-on: ubuntu-latest 
     steps:
-      - name: Checkout Code
-        uses: actions/checkout@v4
-      - name: Docker Login
-        run: docker login --username=umartakyi.ut@gmail.com --password=alfaruq2007
-      - name: Docker Run
-        run: docker run -d -p 8080:80 docker.io/utalfaruq/resume-app:latest
+        - name: Docker Login
+          run: docker login --username=${{ vars.DOCKER_USERNAME }} --password=${{ secrets.DOCKER_PASSWORD }}
+
+        - name: Docker Run
+          run: docker run -d -p 8080:80 ${{ env.CONTAINER_REGISTRY }}/${{ vars.DOCKER_USERNAME }}/${{ env.IMAGE_NAME }}:latest
