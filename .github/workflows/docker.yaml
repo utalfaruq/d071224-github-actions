@@ -14,7 +14,7 @@ jobs:
       run: docker build -t docker.io/utalfaruq/resume-app:latest .
 
     - name: Docker Login
-      run: docker login --username=utalfaruq --password=Alfaruq@2007
+      run: docker login --username=umartakyi.ut@gmail.com  --password=alfaruq2007
 
     - name: Docker Publish 
       run: docker push docker.io/utalfaruq/resume-app:latest
@@ -26,6 +26,6 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v4
       - name: Docker Login
-        run: docker login --username=utalfaurq --password=Alfaruq@2007
+        run: docker login --username=umartakyi.ut@gmail.com --password=alfaruq2007
       - name: Docker Run
         run: docker run -d -p 8080:80 docker.io/utalfaruq/resume-app:latest
