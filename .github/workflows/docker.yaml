@@ -8,14 +8,14 @@ on:
 #        - ./css/**
 #        - ./images/**
 #        - ./js/**
-#        - ./index.html
+#        - index.html
 #        - dockerfile
   # pull_request:
   #   types: #[closed, opened]
   #     - closed
   #     - opened
   schedule:
-    - cron: "*/1 * * * *"
+    - cron: "* * * * *"
   workflow_dispatch:
 
 env:
