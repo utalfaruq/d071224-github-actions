@@ -1,15 +1,19 @@
 name: Docker Workflowenvironmental variables
 
 on:
-  push:
-    branches:
-        - demo
-    paths:
-        - ./css/**
-        - ./images/**
-        - ./js/**
-        - ./index.html
-        - dockerfile
+#  push:
+#    branches:
+#        - demo
+#    paths:
+#        - ./css/**
+#        - ./images/**
+#        - ./js/**
+#        - ./index.html
+#        - dockerfile
+  pull_request:
+    types: #[closed, opened]
+      - closed
+      - opened
   workflow_dispatch:
 
 env:
