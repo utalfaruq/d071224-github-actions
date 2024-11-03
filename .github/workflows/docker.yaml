@@ -1,7 +1,9 @@
 name: Docker Workflowenvironmental variables
 
 on:
-  - push
+  push:
+    branches:
+        -main
 
 env:
     CONTAINER_REGISTRY: docker.io
