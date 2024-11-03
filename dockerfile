@@ -8,3 +8,5 @@ COPY . /usr/share/nginx/html
 EXPOSE 80
 # Start Nginx in the foreground when the container launches
 CMD ["nginx", "-g", "daemon off;"]
+
+# --------------------------
