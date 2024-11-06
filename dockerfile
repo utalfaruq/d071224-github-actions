@@ -6,5 +6,5 @@ RUN rm -rf /usr/share/nginx/html/*
 COPY . /usr/share/nginx/html
 # Expose port 80
 EXPOSE 80
-# Start Nginx in the foreground when the container launches
+# Start Nginx in the foreground when the container launches.
 CMD ["nginx", "-g", "daemon off;"]
