@@ -1,3 +1,5 @@
+name: Matrix configuration
+
 on:
     push: 
       workflow_dispatch:
