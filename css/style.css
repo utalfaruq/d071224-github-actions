@@ -24,7 +24,7 @@ body {
 .main-name {
     font-family: 'Merriweather', serif; /* Serif for distinct main name styling */
     color: #2F855A; /* Refined green for a natural, welcoming touch */
-    font-weight: 700; /* Bold to draw attention */
+    font-weight: 800; /* Bold to draw attention */
 }
 
 .position {
