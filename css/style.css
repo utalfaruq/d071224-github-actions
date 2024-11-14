@@ -19,14 +19,14 @@ body {
     font-family: 'Roboto', sans-serif; /* Clean, modern sans-serif */
     color: #333333; /* Neutral dark gray for clarity */
     font-weight: 400; /* Regular weight for balance */
-    font-size: 1.4em; /* Enhanced readability */
+    font-size: 2.0em; /* Enhanced readability */
 }
 
 .main-name {
     font-family: 'Lora', serif; /* Elegant serif for main name */
     color: #2A9D8F; /* Soft green for warmth and emphasis */
     font-weight: 600; /* Semi-bold for distinction */
-    font-size: 1.5em; /* Better readability */
+    font-size: 3.0em; /* Better readability */
 }
 
 .position {
