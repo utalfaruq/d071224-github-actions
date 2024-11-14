@@ -5,33 +5,37 @@ body {
 	padding-top: 100px;
 }
 
-/* Import refined Google Fonts for better typography */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Merriweather:wght@700&display=swap');
+/* Import Google Fonts for elegant typography */
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@600&family=Roboto:wght@400;700&display=swap');
 
 .title {
-    font-family: 'Merriweather', serif; /* Elegant serif for strong titles */
-    color: #305f72; /* Muted blue for a sophisticated look */
-    font-weight: 700; /* Bold for clear emphasis */
+    font-family: 'Lora', serif; /* Stylish serif for titles */
+    color: #264653; /* Deep teal for sophistication */
+    font-weight: 600; /* Semi-bold for emphasis */
+    font-size: 1.6em; /* Increased font size for visibility */
 }
 
 .subtitle {
-    font-family: 'Montserrat', sans-serif; /* Clean, modern sans-serif */
-    color: #4A4A4A; /* Dark gray for a balanced, subtle contrast */
-    font-weight: 500; /* Medium weight for clarity */
-    font-size: 1.25em; /* Slightly larger for readability */
+    font-family: 'Roboto', sans-serif; /* Clean, modern sans-serif */
+    color: #333333; /* Neutral dark gray for clarity */
+    font-weight: 400; /* Regular weight for balance */
+    font-size: 1.4em; /* Enhanced readability */
 }
 
 .main-name {
-    font-family: 'Merriweather', serif; /* Serif for distinct main name styling */
-    color: #2F855A; /* Refined green for a natural, welcoming touch */
-    font-weight: 800; /* Bold to draw attention */
+    font-family: 'Lora', serif; /* Elegant serif for main name */
+    color: #2A9D8F; /* Soft green for warmth and emphasis */
+    font-weight: 600; /* Semi-bold for distinction */
+    font-size: 1.5em; /* Better readability */
 }
 
 .position {
-    font-family: 'Montserrat', sans-serif; /* Clean and minimal for positions */
-    color: #444444; /* Dark gray for sophistication and contrast */
-    font-weight: 500; /* Medium weight for professional appearance */
+    font-family: 'Roboto', sans-serif; /* Clean sans-serif for role */
+    color: #555555; /* Dark gray for a subtle touch */
+    font-weight: 400; /* Regular weight for a professional look */
+    font-size: 1.2em; /* Increase for clear visibility */
 }
+
 
 
 .no-bullets {
