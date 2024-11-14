@@ -5,28 +5,32 @@ body {
 	padding-top: 100px;
 }
 
+/* Define Google Fonts or use a font provider in your HTML head for these fonts to work */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Playfair+Display:wght@700&display=swap');
+
 .title {
-	font-family: 'Audiowide', cursive;
-	color: #0088cc;
-	font-weight: bold;
+    font-family: 'Playfair Display', serif; /* Elegant serif for titles */
+    color: #4A90E2; /* Soft blue for titles */
+    font-weight: 700; /* Bold, but not too heavy */
 }
 
 .subtitle {
-	font-family: 'Audiowide', cursive;
-	font-weight: bold;
-	font-size: 1.2em;
+    font-family: 'Poppins', sans-serif; /* Clean sans-serif for subtitles */
+    color: #555; /* Neutral gray for a softer look */
+    font-weight: 600; /* Semi-bold for emphasis */
+    font-size: 1.3em; /* Slightly larger for readability */
 }
 
 .main-name {
-	color: #3bbc73;
-	font-family: 'Audiowide', cursive;
-	font-weight: bold;
+    font-family: 'Playfair Display', serif; /* Elegant serif for main name */
+    color: #3A946A; /* Soothing green to match the palette */
+    font-weight: 700; /* Strong emphasis on the main name */
 }
 
 .position {
-	font-family: 'Audiowide', cursive;
-	color: #000;
-	font-weight: bold;
+    font-family: 'Poppins', sans-serif; /* Consistent sans-serif for readability */
+    color: #333; /* Darker gray for subtle emphasis */
+    font-weight: 600; /* Semi-bold for prominence without overdoing it */
 }
 
 .no-bullets {
