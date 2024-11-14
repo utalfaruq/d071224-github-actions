@@ -5,33 +5,34 @@ body {
 	padding-top: 100px;
 }
 
-/* Define Google Fonts or use a font provider in your HTML head for these fonts to work */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Playfair+Display:wght@700&display=swap');
+/* Import refined Google Fonts for better typography */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Merriweather:wght@700&display=swap');
 
 .title {
-    font-family: 'Playfair Display', serif; /* Elegant serif for titles */
-    color: #4A90E2; /* Soft blue for titles */
-    font-weight: 700; /* Bold, but not too heavy */
+    font-family: 'Merriweather', serif; /* Elegant serif for strong titles */
+    color: #305f72; /* Muted blue for a sophisticated look */
+    font-weight: 700; /* Bold for clear emphasis */
 }
 
 .subtitle {
-    font-family: 'Poppins', sans-serif; /* Clean sans-serif for subtitles */
-    color: #555; /* Neutral gray for a softer look */
-    font-weight: 600; /* Semi-bold for emphasis */
-    font-size: 1.3em; /* Slightly larger for readability */
+    font-family: 'Montserrat', sans-serif; /* Clean, modern sans-serif */
+    color: #4A4A4A; /* Dark gray for a balanced, subtle contrast */
+    font-weight: 500; /* Medium weight for clarity */
+    font-size: 1.25em; /* Slightly larger for readability */
 }
 
 .main-name {
-    font-family: 'Playfair Display', serif; /* Elegant serif for main name */
-    color: #3A946A; /* Soothing green to match the palette */
-    font-weight: 700; /* Strong emphasis on the main name */
+    font-family: 'Merriweather', serif; /* Serif for distinct main name styling */
+    color: #2F855A; /* Refined green for a natural, welcoming touch */
+    font-weight: 700; /* Bold to draw attention */
 }
 
 .position {
-    font-family: 'Poppins', sans-serif; /* Consistent sans-serif for readability */
-    color: #333; /* Darker gray for subtle emphasis */
-    font-weight: 600; /* Semi-bold for prominence without overdoing it */
+    font-family: 'Montserrat', sans-serif; /* Clean and minimal for positions */
+    color: #444444; /* Dark gray for sophistication and contrast */
+    font-weight: 500; /* Medium weight for professional appearance */
 }
+
 
 .no-bullets {
 	list-style-type: none;
