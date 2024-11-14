@@ -5,35 +5,35 @@ body {
 	padding-top: 100px;
 }
 
-/* Import Google Fonts for elegant typography */
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@600&family=Roboto:wght@400;700&display=swap');
+//* Import Google Fonts for improved readability and aesthetics */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&family=Playfair+Display:wght@700&display=swap');
 
 .title {
-    font-family: 'Lora', serif; /* Stylish serif for titles */
-    color: #264653; /* Deep teal for sophistication */
-    font-weight: 600; /* Semi-bold for emphasis */
-    font-size: 1.6em; /* Increased font size for visibility */
+    font-family: 'Playfair Display', serif; /* Classic, elegant serif for titles */
+    color: #1D3557; /* Deep navy blue for strong visual impact */
+    font-weight: 700; /* Bold for primary focus */
+    font-size: 1.8em; /* Large size for clear visibility */
 }
 
 .subtitle {
-    font-family: 'Roboto', sans-serif; /* Clean, modern sans-serif */
-    color: #333333; /* Neutral dark gray for clarity */
-    font-weight: 400; /* Regular weight for balance */
-    font-size: 2.0em; /* Enhanced readability */
+    font-family: 'Nunito', sans-serif; /* Modern, approachable sans-serif */
+    color: #444444; /* Neutral dark gray for readability */
+    font-weight: 600; /* Semi-bold to highlight without overwhelming */
+    font-size: 1.5em; /* Slightly larger for balance with title */
 }
 
 .main-name {
-    font-family: 'Lora', serif; /* Elegant serif for main name */
-    color: #2A9D8F; /* Soft green for warmth and emphasis */
-    font-weight: 600; /* Semi-bold for distinction */
-    font-size: 5.0em; /* Better readability */
+    font-family: 'Playfair Display', serif; /* Serif for prominence */
+    color: #457B9D; /* Soft blue for warmth and approachability */
+    font-weight: 700; /* Bold for emphasis */
+    font-size: 1.6em; /* Size for visibility */
 }
 
 .position {
-    font-family: 'Roboto', sans-serif; /* Clean sans-serif for role */
-    color: #555555; /* Dark gray for a subtle touch */
-    font-weight: 400; /* Regular weight for a professional look */
-    font-size: 1.2em; /* Increase for clear visibility */
+    font-family: 'Nunito', sans-serif; /* Clean sans-serif for simplicity */
+    color: #606060; /* Mid-gray for a calm, professional tone */
+    font-weight: 400; /* Regular weight for balance */
+    font-size: 1.3em; /* Clear, readable size */
 }
 
 
